@@ -4,5 +4,3 @@ def GCD(m,n):
     else:
         r = (m%n)
         return GCD(n,r)
-
-print(GCD(80,12))
